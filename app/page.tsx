@@ -58,10 +58,14 @@ export default function Home() {
                   size="lg"
                   className="border-royal-300 dark:border-royal-700 hover:bg-royal-50 dark:hover:bg-royal-900/20 group"
                 >
-                  <a href="/resume.pdf" className="flex items-center">
-                    <Download className="mr-2 h-4 w-4 transition-transform duration-300 group-hover:scale-110" />
-                    Download Resume
-                  </a>
+                 <a 
+                  href="/Akash Gunasekar Resume - 2025.pdf" 
+                  download 
+                  className="flex items-center"
+                >
+                  <Download className="mr-2 h-4 w-4 transition-transform duration-300 hover:scale-110" />
+                  Download Resume
+                </a>
                 </Button>
               </div>
 

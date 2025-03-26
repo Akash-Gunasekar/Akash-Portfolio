@@ -107,7 +107,7 @@ export async function POST(request: Request) {
 
     const data = await response.json()
 
-    console.log("🧠 Hugging Face raw response:", JSON.stringify(data, null, 2))
+    // console.log("🧠 Hugging Face raw response:", JSON.stringify(data, null, 2))
 
     let aiResponse = ""
     if (Array.isArray(data) && data[0]?.generated_text !== undefined) {
@@ -121,7 +121,7 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ response: aiResponse })
   } catch (error) {
-    console.error("❌ Error in AI assistant API:", error)
+    console.error("Error in AI assistant API:", error)
     return NextResponse.json(
       { error: "Failed to get AI response from Hugging Face" },
       { status: 500 }
