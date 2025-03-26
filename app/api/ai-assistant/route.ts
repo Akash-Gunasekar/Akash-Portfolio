@@ -114,6 +114,8 @@ export async function POST(request: Request) {
       aiResponse = data[0].generated_text.trim()
     }
 
+    
+
     return NextResponse.json({ response: aiResponse })
   } catch (error) {
     console.error("Error in AI assistant API:", error)
