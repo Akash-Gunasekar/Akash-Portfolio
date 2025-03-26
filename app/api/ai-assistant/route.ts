@@ -42,7 +42,7 @@ Contact Information:
 - Email: akashpersonal18@gmail.com
 - Phone: +91 6379508387
 - Location: Chennai, Tamil Nadu, India
-- LinkedIn: https://www.linkedin.com/in/akash-gunasekar
+- LinkedIn: https://www.linkedin.com/in/akash-gunasekar-859b48199/
 - GitHub: https://github.com/Akash-Gunasekar
 
 Personal Details:

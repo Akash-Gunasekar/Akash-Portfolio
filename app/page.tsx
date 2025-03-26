@@ -78,7 +78,7 @@ export default function Home() {
                   <Github className="h-5 w-5" />
                 </Link>
                 <Link
-                  href="https://www.linkedin.com/in/akash-gunasekar/"
+                  href="https://www.linkedin.com/in/akash-gunasekar-859b48199/"
                   target="_blank"
                   className="bg-white dark:bg-slate-800 p-3 rounded-full text-slate-600 hover:text-royal-600 dark:text-slate-400 dark:hover:text-royal-400 transition-all duration-300 hover:shadow-md"
                 >

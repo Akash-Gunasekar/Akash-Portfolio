@@ -30,22 +30,22 @@ export default function EducationSection() {
     {
       name: "AWS Partner: Accreditation (Technical)",
       issuer: "AWS",
-      link: "https://www.credly.com/badges/...",
+      link: "https://www.credly.com/badges/f7a174b9-af0d-4245-9c1f-2249e8e57ac9/linked_in_profile",
     },
     {
       name: "Neo4j Fundamentals",
       issuer: "Neo4j",
-      link: "https://graphacademy.neo4j.com/certificates/...",
+      link: "https://graphacademy.neo4j.com/c/339c1bb0-5dc9-4288-90b9-59707044fc40/",
     },
     {
       name: "Cypher Fundamentals",
       issuer: "Neo4j",
-      link: "https://graphacademy.neo4j.com/certificates/...",
+      link: "https://graphacademy.neo4j.com/c/e76bb07e-8857-4715-8f3f-8e56ad07da76/",
     },
     {
       name: "Micro Degree in Data Science",
       issuer: "Imagecon Academy",
-      link: "https://imagecon.academy/certificates/IMIC22080308",
+      link: "https://www.imageconindia.com/certificate/verify-certificate (Certificate ID: IMIC22080308)",
     },
   ]
 
