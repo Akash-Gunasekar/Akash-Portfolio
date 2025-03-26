@@ -8,7 +8,8 @@ export default function AboutSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="section-title">About Me</h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* Stack reveal sections vertically instead of using grid columns */}
+        <div className="flex flex-col gap-12 items-center">
           <RevealSection>
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-royal-500/20 to-teal-500/20 rounded-2xl blur-md"></div>
@@ -64,7 +65,7 @@ export default function AboutSection() {
                 <Database className="h-8 w-8 text-royal-500 mb-3" />
                 <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-2">Databases</h3>
                 <p className="text-slate-600 dark:text-slate-400">
-                  Experience with SQL, NoSQL, and graph databases like Neo4j.
+                  Experience with CQL graph databases like Neo4j and Basics SQL.
                 </p>
               </div>
 
@@ -90,4 +91,3 @@ export default function AboutSection() {
     </section>
   )
 }
-

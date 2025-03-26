@@ -21,20 +21,20 @@ export default function ExperienceSection() {
       ],
       skills: ["Python", "LLM", "NLP", "Neo4j", "AWS", "Machine Learning"],
     },
-    {
-      id: 2,
-      title: "Data Science Intern",
-      company: "Imagecon Academy",
-      location: "Salem",
-      period: "August 2022 - November 2023",
-      description: [
-        "Analyzed complex datasets and developed machine learning models",
-        "Created data visualizations and reports to communicate insights",
-        "Contributed to research projects in the field of computer vision and image processing",
-        "Assisted in curriculum development for data science training programs",
-      ],
-      skills: ["Python", "Data Analysis", "ML Algorithms", "Data Visualization", "Research"],
-    },
+    // {
+    //   id: 2,
+    //   title: "Data Science Intern",
+    //   company: "Imagecon Academy",
+    //   location: "Salem",
+    //   period: "August 2022 - November 2023",
+    //   description: [
+    //     "Analyzed complex datasets and developed machine learning models",
+    //     "Created data visualizations and reports to communicate insights",
+    //     "Contributed to research projects in the field of computer vision and image processing",
+    //     "Assisted in curriculum development for data science training programs",
+    //   ],
+    //   skills: ["Python", "Data Analysis", "ML Algorithms", "Data Visualization", "Research"],
+    // },
   ]
 
   const [activeExp, setActiveExp] = useState(experiences[0].id)

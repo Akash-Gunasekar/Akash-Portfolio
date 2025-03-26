@@ -38,19 +38,19 @@ export default function SkillsSection() {
   const skillCategories = [
     {
       title: "AI & Machine Learning",
-      skills: ["Machine Learning", "Deep Learning", "NLP", "LLMs", "Computer Vision", "Reinforcement Learning"],
+      skills: ["Machine Learning", "Deep Learning", "NLP", "LLMs"],
     },
     {
       title: "Programming",
-      skills: ["Python", "JavaScript", "SQL", "R", "Java", "C++"],
+      skills: ["Python", "JavaScript", "React js", "SQL", "R Programming"],
     },
     {
       title: "Backend Development",
-      skills: ["Flask", "FastAPI", "Django", "Node.js", "RESTful APIs", "GraphQL"],
+      skills: ["Flask", "FastAPI", "Node.js"],
     },
     {
       title: "Databases",
-      skills: ["MySQL", "PostgreSQL", "MongoDB", "Neo4j", "Redis", "Vector Databases"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB", "Neo4j", "Chroma vectorDB"],
     },
   ]
 
@@ -65,7 +65,7 @@ export default function SkillsSection() {
 
         <RevealSection>
           <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
               {skillCategories.map((category, index) => (
                 <div key={index} className="relative">
                   <div className="absolute -inset-1 bg-gradient-to-r from-royal-500/20 to-teal-500/20 rounded-xl blur-md"></div>
@@ -101,17 +101,14 @@ export default function SkillsSection() {
 
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
                 {[
-                  "Natural Language Processing",
                   "Large Language Models",
                   "Machine Learning",
+                  "Natural Language Processing",
                   "Deep Learning",
-                  "Computer Vision",
                   "Data Engineering",
                   "Cloud Computing",
-                  "Database Design",
                   "API Development",
                   "DevOps",
-                  "Web Development",
                   "Data Visualization",
                 ].map((skill, index) => (
                   <div
