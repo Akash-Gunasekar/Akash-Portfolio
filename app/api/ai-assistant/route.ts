@@ -115,9 +115,9 @@ export async function POST(request: Request) {
     }
 
     // If it's a valid but empty string, send a friendly fallback message
-    if (!aiResponse) {
-      aiResponse = "I’m here to help! Could you please rephrase or ask something else about Akash's portfolio?"
-    }
+    // if (!aiResponse) {
+    //   aiResponse = "I’m here to help! Could you please rephrase or ask something else about Akash's portfolio?"
+    // }
 
     return NextResponse.json({ response: aiResponse })
   } catch (error) {
