@@ -1,3 +1,3 @@
 # Akash-Portfolio
 
-![Portfolio Home Pagepublic/images/Profile%20Home%20page.png)
+![Portfolio Home Page](./public/images/Profile%20Home%20page.png)
